@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1e293b;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    padding: 16px 32px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #cbd5e1;
+    text-decoration: underline;
+}
+
+/* Card Container */
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 440px;
+    margin: auto 20px;
+    padding: 36px 32px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1e1b4b;
+    font-size: 1.8rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #475569;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="number"]:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+/* Button */
+button[type="submit"] {
+    margin-top: 8px;
+    padding: 12px;
+    background: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button[type="submit"]:hover {
+    background: #4338ca;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* Result Box */
+#result {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    min-height: 28px;
+    margin-top: 4px;
+}
+
+/* Category Guide */
+#weight-category {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px dashed #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#weight-category h3 {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 4px;
+}
+
+#weight-category p {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin: 0;
+}
