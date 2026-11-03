@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a target="_blank" href="https://github.com/akshukla2727">GitHub</a>
+    </nav>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form>
+            <p><label>Height (cm): </label><input type="number" id="height" step="0.01" required></p>
+            <p><label>Weight (kg): </label><input type="number" id="weight" step="0.01" required></p>
+            <button type="submit">Calculate BMI</button>
+            <div id="result"></div>
+            <div id="weight-category">
+                <h3>Weight Category: </h3>
+                <p>Underweight on BMI less than 18.5</p>
+                <p>Normal weight on BMI between 18.5 and 24.9</p>
+                <p>Overweight on BMI between 25 and 29.9</p>
+                <p>Obese on BMI 30 or greater</p> 
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

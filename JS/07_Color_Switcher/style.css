@@ -1,0 +1,92 @@
+html {
+  margin: auto;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #212121;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* Nav links styling */
+nav {
+  display: block;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+nav a {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  background-color: #212121;
+  color: #fff;
+}
+
+/* Canvas & Switcher container */
+.canvas {
+  margin: 80px auto;
+  width: 420px;
+  background-color: #ffffff;
+  color: #111111;
+  padding: 30px 20px;
+  border-radius: 4px;
+}
+
+.canvas h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+/* Color boxes */
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#grey {
+  background-color: grey;
+}
+
+#white {
+  background-color: white;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 25px;
+  color: #111;
+}
+
+span {
+  font-size: 14px;
+}
